@@ -1,0 +1,276 @@
+%%
+%% This is file `sample-sigconf.tex',
+%% generated with the docstrip utility.
+%%
+%% The original source files were:
+%%
+%% samples.dtx  (with options: `sigconf')
+%% 
+%% IMPORTANT NOTICE:
+%% 
+%% For the copyright see the source file.
+%% 
+%% Any modified versions of this file must be renamed
+%% with new filenames distinct from sample-sigconf.tex.
+%% 
+%% For distribution of the original source see the terms
+%% for copying and modification in the file samples.dtx.
+%% 
+%% This generated file may be distributed as long as the
+%% original source files, as listed above, are part of the
+%% same distribution. (The sources need not necessarily be
+%% in the same archive or directory.)
+%%
+%%
+%% Commands for TeXCount
+%TC:macro \cite [option:text,text]
+%TC:macro \citep [option:text,text]
+%TC:macro \citet [option:text,text]
+%TC:envir table 0 1
+%TC:envir table* 0 1
+%TC:envir tabular [ignore] word
+%TC:envir displaymath 0 word
+%TC:envir math 0 word
+%TC:envir comment 0 0
+%%
+%%
+%% The first command in your LaTeX source must be the \documentclass
+%% command.
+%%
+%% For submission and review of your manuscript please change the
+%% command to \documentclass[manuscript, screen, review]{acmart}.
+%%
+%% When submitting camera ready or to TAPS, please change the command
+%% to \documentclass[sigconf]{acmart} or whichever template is required
+%% for your publication.
+%%
+%%
+\documentclass[sigconf]{acmart}
+
+%%
+%% \BibTeX command to typeset BibTeX logo in the docs
+\AtBeginDocument{%
+  \providecommand\BibTeX{{%
+    Bib\TeX}}}
+
+%% Rights management information.  This information is sent to you
+%% when you complete the rights form.  These commands have SAMPLE
+%% values in them; it is your responsibility as an author to replace
+%% the commands and values with those provided to you when you
+%% complete the rights form.
+% \setcopyright{acmcopyright}
+% \copyrightyear{2018}
+% \acmYear{2018}
+% \acmDOI{XXXXXXX.XXXXXXX}
+
+% %% These commands are for a PROCEEDINGS abstract or paper.
+% \acmConference[Conference acronym 'XX]{Make sure to enter the correct
+%   conference title from your rights confirmation emai}{June 03--05,
+%   2018}{Woodstock, NY}
+% %%
+% %%  Uncomment \acmBooktitle if the title of the proceedings is different
+% %%  from ``Proceedings of ...''!
+% %%
+% %%\acmBooktitle{Woodstock '18: ACM Symposium on Neural Gaze Detection,
+% %%  June 03--05, 2018, Woodstock, NY}
+% \acmPrice{15.00}
+% \acmISBN{978-1-4503-XXXX-X/18/06}
+
+
+\settopmatter{printacmref=false}
+
+
+\copyrightyear{2023}
+\acmYear{2023}
+\setcopyright{acmlicensed}\acmConference[CODAI '23 ]{Workshop on
+Compilers, Deployment, and Tooling for Edge AI}{September 21,
+2023}{Hamburg, Germany}
+\acmBooktitle{Workshop on Compilers, Deployment, and Tooling for Edge AI
+(CODAI '23 ), September 21, 2023, Hamburg, Germany}
+\acmPrice{15.00}
+\acmDOI{10.1145/3615338.3618122}
+\acmISBN{979-8-4007-0337-9/23/09}
+
+%%
+%% Submission ID.
+%% Use this when submitting an article to a sponsored event. You'll
+%% receive a unique submission ID from the organizers
+%% of the event, and this ID should be used as the parameter to this command.
+%%\acmSubmissionID{123-A56-BU3}
+
+%%
+%% For managing citations, it is recommended to use bibliography
+%% files in BibTeX format.
+%%
+%% You can then either use BibTeX with the ACM-Reference-Format style,
+%% or BibLaTeX with the acmnumeric or acmauthoryear sytles, that include
+%% support for advanced citation of software artefact from the
+%% biblatex-software package, also separately available on CTAN.
+%%
+%% Look at the sample-*-biblatex.tex files for templates showcasing
+%% the biblatex styles.
+%%
+
+%%
+%% The majority of ACM publications use numbered citations and
+%% references.  The command \citestyle{authoryear} switches to the
+%% "author year" style.
+%%
+%% If you are preparing content for an event
+%% sponsored by ACM SIGGRAPH, you must use the "author year" style of
+%% citations and references.
+%% Uncommenting
+%% the next command will enable that style.
+%%\citestyle{acmauthoryear}
+
+\usepackage{textcomp}
+%%
+%% end of the preamble, start of the body of the document source.
+\begin{document}
+
+%%
+%% The "title" command has an optional parameter,
+%% allowing the author to define a "short title" to be used in page headers.
+\title{CODAI: International Workshop on Compilers, Deployment, and Tooling for Edge AI}
+
+\author{Michael J. Klaiber}
+\orcid{0000-0000-0000-0000}
+\affiliation{%
+	\institution{EnCharge AI}
+	% \streetaddress{Street Address}
+	\country{United States}}
+ \email{michael.klaiber@enchargeai.com}
+
+\author{Sebastian Vogel}
+\orcid{0000-0001-9665-6562}
+\affiliation{%
+	\institution{NXP Semiconductors}
+	\country{The Netherlands}}
+ \email{sebastian.vogel@nxp.com}
+
+
+\author{Andreas Bytyn}
+\orcid{0000-0000-0000-0000}
+\affiliation{%
+	\institution{Axelera AI}
+	\country{Germany}}
+ \email{andreas.bytyn@axelera.ai}
+
+\author{Dennis Rieber}
+\orcid{0000-0000-0000-0000}
+\affiliation{%
+	\institution{Bosch Research}
+	\country{Germany}}
+ \email{dennissebastian.rieber@bosch.com}
+
+\author{Miguel Aguilar}
+\orcid{0000-0000-0000-0000}
+\affiliation{%
+	\institution{Aptiv}
+	% \streetaddress{Street Address}
+	\country{Germany}}
+ \email{miguel.aguilar@aptiv.com}
+ 
+ 	
+ \author{Dayane Reis}
+ \orcid{0000-0000-0000-0000}
+ \affiliation{%
+ 	\institution{University of South Florida}
+ 	% \streetaddress{Street Address}
+ 	\country{United States}}
+ \email{dayane.reis@usf.edu}
+
+\renewcommand{\shortauthors}{M.J. Klaiber et al.}
+%%
+%% By default, the full list of authors will be used in the page
+%% headers. Often, this list is too long, and will overlap
+%% other information printed in the page headers. This command allows
+%% the author to define a more concise list
+%% of authors' names for this purpose.
+% \renewcommand{\shortauthors}{Trovato et al.}
+
+%%
+%% The abstract is a short summary of the work to be presented in the
+%% article.
+\begin{abstract}
+These proceedings serve as a comprehensive record of the research contributions and discussions presented at the International Workshop on Compilers and Optimization Techniques for Edge AI (CODAI) in both 2022 and 2023. CODAI, held in conjunction with the Embedded Systems Week conference series, is an annual event that provides a vibrant platform for researchers, experts, and practitioners to converge and exchange insights in the dynamic field of Edge Artificial Intelligence (AI). The workshop explores a wide range of topics, including compilers for Edge AI, optimization techniques, hardware backends, and applications for embedded AI accelerators.
+
+The papers featured in these proceedings encompass novel approaches, innovative methodologies, and practical solutions for deploying AI on edge devices. Researchers from both academic and industrial backgrounds present their findings, highlighting advancements in AI compiler technology and its impact on real-world applications. CODAI fosters collaboration between academia and industry, making it a vital resource for staying at the forefront of this rapidly evolving field.
+
+These proceedings provide a valuable resource for those seeking to understand the latest developments in Edge AI compilers and optimization techniques. We extend our heartfelt gratitude to the authors, reviewers, and participants whose contributions have not only enriched the CODAI workshop but have also made significant contributions to the broader field of Edge AI.
+
+\end{abstract}
+
+\maketitle
+
+
+
+
+
+\section{List of Organizers}
+
+\begin{itemize}
+	\item \textit{Michael J. Klaiber}, EnCharge AI, USA\\ General Chair
+	\item \textit{Sebastian Vogel}, NXP Semiconductors, The Netherlands\\ General Chair
+		\item \textit{Andreas Bytyn}, Axelera AI, Germany\\ TPC Chair
+			\item \textit{Dennis Rieber}, Bosch Research, Germany\\ On-site Program Chair
+
+	\item \textit{Miguel Aguilar}, Aptiv, Germany\\ Publicity\&Marketing Chair
+		\item \textit{Dayane Reis}, University of South Florida, USA\\ Online Program Chair
+\end{itemize}
+
+
+\section{List of Technical Program Committee Members}
+
+We want to express our profound appreciation to every member of the Technical Program Committee. Your meticulous and rigorous reviews, coupled with your unwavering commitment to upholding the highest standards of integrity, have been instrumental in shaping a high-quality program. Their  dedication to ensuring the scholarly excellence of our event has not gone unnoticed, and we are truly grateful for your invaluable contributions
+
+\subsection*{2023:}
+\begin{itemize}
+	\item Oliver Bringmann, Paul Palomero Bernardo - University of Tübingen, Germany
+	\item Henk Corporaal, Floran de Putter - Eindhoven University of Technology, The Netherlands
+	\item Andrew Reusch - OctoML, USA
+	\item Robert Nabholz - Robert Bosch GmbH, Germany
+	\item Sezgin Baloglu - Germany
+	\item Fouad Sakr - Aptiv, Germany
+	\item Shaahin Angizi - New Jersey Institute of Technology, USA
+	\item Manuele Rusci - KU Leuven, Belgium
+	\item Alessandro Capotondi, Università di Modena e Reggio Emilia, Italy
+	\item Andres Goens - University of Edinburgh, Scotland, United Kingdom
+	\item Lei Yang - George Mason University, USA
+	\item Paul Dragan - University of Duisburg-Essen, Germany
+\end{itemize}
+
+\subsection*{2022:}
+\begin{itemize}
+	\item Deming Chen - University of Illinois Urbana Champaign, USA
+	\item Andreas Bytyn - Bosch Automotive Electronics, Germany
+	\item Andrew Reusch - OctoML, USA
+	\item Henk Corporaal - Eindhoven University of Technology, The Netherlands
+	\item Robert Nabholz - Robert Bosch XC, Germany
+	\item Floran de Putter - Eindhoven University of Technology, The Netherlands
+	\item Oliver Bringmann - University of Tübingen, Germany
+	\item Paul Palomero Bernardo - University of Tübingen, Germany
+	\item Falk Rehm - Bosch Research, Germany
+	\item Dennis Rieber - Bosch Research, Germany
+	\item Christoph Schorn - Bosch Research, Germany
+	\item Ingo Feldner - Bosch Research, Germany
+	\item Hussam Amrouch - University of Stuttgart, Germany
+	\item Dayane Reis - University of South Florida, USA
+\end{itemize}
+
+
+\section{Workshop Program}
+
+\section{Acknowledgments}
+We would like to extend our gratitude to the chairs of Embedded Systems Week (ESWEEK), Sharon Hu and Robert Dick, for their unwavering support and invaluable contributions to make CODAI a successful and collaborative workshop.
+
+
+\bibliographystyle{ACM-Reference-Format}
+\bibliography{references}
+
+
+
+\end{document}
+\endinput
+%%
+%% End of file `sample-sigconf.tex'.
